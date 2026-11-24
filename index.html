@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d4f8b">
+<title>RDV</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="lock" class="lock hidden"></div>
+<header class="top">
+  <div class="brand">RDV</div>
+  <div id="topinfo" class="topinfo"></div>
+</header>
+<div id="banner"></div>
+<main id="main"></main>
+<nav class="tabs" id="tabs">
+  <button data-tab="hoje"><span>📝</span>Hoje</button>
+  <button data-tab="semana"><span>📅</span>Semana</button>
+  <button data-tab="pendencias"><span>📌</span>Pendências</button>
+  <button data-tab="mais"><span>⚙️</span>Mais</button>
+</nav>
+<div id="toast" class="toast"></div>
+<script src="app.js"></script>
+<script src="relatorio.js"></script>
+<script src="transcricao.js"></script>
+</body>
+</html>
